@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-image: url("images/dark-wood.jpg");
+}
+header{
+    background-image: url("images/header-page.jpg");
+    padding-top: 30px;
+    width: 60%;
+    margin-left: 300px;
+}
+h1{
+    font-size: 50px;
+    text-align: right;
+    line-height: 100px;
+    padding-right: 30px;
+}
+nav{
+    background-image: url("images/header-page.jpg");
+    text-underline: #333333;
+    width: 60%;
+    margin-left: 300px;
+    padding-bottom: 3px ;
+    padding-top: 3px;
+    margin-top: 3px;
+    margin-bottom: 5px;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    text-align: left
+}
+li{
+    display: inline;
+    list-style: none;
+    font-size: 20px;
+
+}
+/* Setting color on the first element of nav bar */
+
+nav ul li a{
+    font-family: "Times New Roman", sans-serif;
+    word-spacing: 10px;
+    color: #ffffff;
+    text-decoration: none;
+    display: inline;
+    padding: 20px;
+}
+nav li a:hover {
+    color: #333333;
+}
+nav ul li:first-of-type a{
+    color: #333333;
+}
+figure{
+    float: left;
+    width: 290px;
+    height: 220px;
+    padding: 5px;
+    margin: 20px;
+    border: 2px solid #eeeeee;
+    padding-right: 3px;
+}
+article{
+    clear: both;
+    overflow: auto;
+    width: 100%;
+}
+figcaption{
+    padding-top: 5px;
+    padding-bottom: 17px;
+    padding-left: 15px;
+}
+main{
+    background-color: white;
+    margin-left: 300px;
+    margin-right: 282px;
+}
+img{
+    color: #666666;
+    font-family: Georgia, Times, serif;
+    line-height: 1.2em;
+
+}
+.courses h2 h3 p{
+    padding-left: 150px;
+
+}
+header, section, footer, aside, nav, article, figure, figcaption {
+    display: block;
+}
+
+h2{
+    padding-top: 35px;
+    font-family: Georgia, sans-serif;
+    color: #444444;
+}
+h3{
+    color: goldenrod;
+    font-family: Georgia, sans-serif;
+    padding-top: 15px;
+}
+.courses p{
+    padding-top: 15px;
+    padding-right: 260px;
+    color: gray;
+    text-align: justify;
+    line-height: 23px;
+}
+aside{
+    margin-top: 50px;
+    position:absolute;
+    right: 50px;
+    margin-left: 70px;
+    top:120px;
+    bottom: 0;
+    width: 220px;
+    padding-right: 220px;
+    border-left: 1px solid silver;
+    padding-left: 0;
+    margin-right: 30px;
+}
+aside h2{
+    padding-left: 28px;
+    padding-top: 30px;
+    color: palevioletred;
+    font-family: Georgia, sans-serif;
+}
+aside a{
+    padding-top: 15px;
+    padding-left: 10px;
+    display: block;
+    word-spacing: 15px;
+    margin-right: 50px;
+    font-size: 18px;
+    color: palevioletred;
+    border-bottom: 1px solid silver;
+    padding-bottom: 15px;
+    margin-left: 20px;
+}
+footer{
+    margin-top: 3px;
+    background: darkgray;
+    text-align: center;
+    color: #ffffff;
+    padding-top: 5px;
+    font-size: 15px;
+    padding-bottom: 5px;
+}

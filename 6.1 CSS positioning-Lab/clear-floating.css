@@ -1,0 +1,55 @@
+body{
+    color: white;
+}
+.clearfix{
+    margin-bottom: 30px;
+}
+.head{
+    background: #8B603D;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border: 2px solid dimgray;
+}
+.head h1{
+    color: white;
+    margin-left: 30px;
+}
+.middle{
+    margin-left: 30px;
+    display: inline-block;
+    width: 100%;
+}
+.left-side{
+    display: inline-block;
+    width: 15%;
+}
+.flyght{
+    background: #33B5E5;
+    padding: 10px;
+}
+.island{
+    background: #33B5E5;
+    padding: 10px;
+}
+.city{
+    background: #33B5E5;
+    padding: 10px;
+}
+.food{
+    background: #33B5E5;
+    padding: 10px;
+}
+div{
+    margin-top: 10px;
+}
+.right-side{
+    color: black;
+    float: right;
+    margin-right: 280px;
+    margin-top: 30px;
+}
+footer{
+    background: #8B603D;
+    border: 2px solid dimgray;
+    padding: 25px;
+}

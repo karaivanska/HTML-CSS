@@ -1,0 +1,174 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+
+body{
+    font-size: 14px;
+    font-family: Lato, sans-serif;
+    background: #B9A18A;
+}
+.header-potato {
+    width: 30%;
+}
+.potato-img{
+    width: 30%;
+}
+.brand{
+    color: #FFFFFF;
+    font-size: 18px;
+    font-weight: 900;
+    padding-left: 20px;
+    padding-right: 400px;
+}
+.nav-primary{
+    float: right;
+    padding-left: 1012px;
+    position: absolute;
+    top: 0;
+}
+.nav-item{
+    display: inline-block;
+    margin: 8px;
+}
+.nav-item a{
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 12px;
+    padding: 10px;
+    padding-left: 18px;
+    padding-right: 18px;
+}
+.nav-item:last-child a{
+    border: 2px solid #FFFFFF;
+    border-radius: 20px;
+}
+li.nav-item:last-child a:hover{
+    background: #867260;
+    border: 2px solid #867260;
+}
+.header-title{
+    color: #FFFFFF;
+    text-transform: capitalize;
+    margin-top: 150px;
+    text-align: center;
+    font-weight: lighter;
+    letter-spacing: 2px;
+}
+.header-subtitle{
+    text-align: center;
+    color: #FFFFFF;
+    font-weight: lighter;
+}
+.header-potato{
+    width: 30%;
+    margin-top: 50px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+.features{
+    background-image: url("images/potato-background.png");
+    position:absolute;
+    background-size: cover;
+    height: 740px;
+    left: 0;
+    right: 0;
+    overflow:hidden;
+}
+.features-title{
+    margin-top: 200px;
+    font-weight: 100;
+    letter-spacing: 2px;
+    text-align: center;
+}
+.features-subtitle{
+    font-weight: 100;
+    letter-spacing: 1px;
+    text-align: center;
+    margin-left: 450px;
+    margin-right: 450px;
+}
+img.feature-potatoes{
+    width: 30%;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+li.potato{
+    display: inline-block;
+}
+img.potato-img{
+    width: 150px;
+    height: 100px;
+}
+.order-title{
+    padding-top: 780px;
+    padding-bottom: 40px;
+    background: #FAFAFA;
+    background-size: cover;
+    width: 100%;
+    left: 0;
+    right: 0;
+    margin-bottom: 0;
+    text-transform: capitalize;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 100;
+    font-size: 30px;
+    color: #444444;
+}
+.potato-types{
+    background: #FAFAFA;
+    background-size: cover;
+    position: absolute;
+    padding-top: 0;
+    padding-left: 280px;
+    width: 79%;
+    margin-top: 0;
+    padding-bottom: 60px;
+}
+.potato{
+    margin: 0 auto;
+    margin-right: 50px;
+    padding-right: 50px;
+    border-right: 1px solid #444444;
+}
+h3.potato-title{
+    text-transform: capitalize;
+    font-weight: 100;
+    font-size: 20px
+}
+ul.potato-features{
+    padding-top: 15px;
+}
+li.potato-description{
+    padding-top: 30px;
+    text-decoration: none;
+}
+.btn-order{
+    border: 2px solid #94c258;
+    color: #94c258;
+    background: #FAFAFA;
+    padding-top: 10px;
+    border-radius: 15px;
+    margin-top: 25px;
+    text-transform: uppercase;
+    margin-left: 50px;
+    padding-bottom: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+.btn-order:hover{
+    background: #94c258;
+    color: #FFFFFF;
+}
+.footer-text{
+    margin-top: 530px;
+    margin-bottom: -50px;
+    padding-top: 15px;
+    /*padding: 10px;*/
+    height: 50px;
+    text-align: center;
+    color: #FFFFFF;
+    line-height: 100%;
+    background: rgb(134, 114, 96);
+}

@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.navbar{
+    display: inline-block;
+}
+ul li{
+    padding: 20px;
+    text-transform: capitalize;
+}
+nav{
+    background: #e67c1f;
+    color: white;
+    text-align: center;
+}
+body{
+    background: #1d211e;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+nav ul ul{
+    display: none;
+    position: absolute;
+}
+nav ul li:hover > ul{
+    display: inline-block;
+    background: #e67c1f;
+    list-style-type: none;
+
+
+}
+.second-drop-down{
+    margin-left: 48px;
+    margin-top: -37px;
+}
+nav  ul ul, ul.second-drop-down{
+    width: 110px;
+    text-align: center;
+ }
+.middle-drop-down{
+    margin-left: 10px;
+}

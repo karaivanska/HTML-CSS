@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css?family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Raleway');
+
+nav ul li a{
+    color: #84b3ad;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+nav ul li{
+    display: inline-block;
+
+}
+nav ul{
+    padding: 10px;
+}
+body{
+    background: #1c3e56;
+    font-family: Lato, sans-serif;
+    margin-bottom: 0;
+}
+/* Maybe will have problems with paragraphs */
+p{
+    text-align: right;
+    color: #84b3ad;
+    font-family: Lato, sans-serif;
+    font-size: 18px;
+    letter-spacing: 2px;
+    margin: 20px;
+    padding: 20px;
+}
+h1 {
+    font-size: 80px;
+    color: #ffffff;
+    text-align: center;
+    margin: 120px;
+    margin-bottom: 50px;
+
+}
+.w100{
+    font-weight: 100;
+}
+h2{
+    text-align: center;
+    padding: 0;
+    color: #84b3ad;
+    font-family: Quicksand, sans-serif;
+    letter-spacing: 2px;
+    margin-bottom: 0;
+}
+.modify-p p{
+    color: darkgrey;
+    text-align: center;
+    margin-bottom: 50px;
+    margin-top: 0;
+}
+span{
+    display: table;
+    margin: 0 auto;
+}
+.register{
+    border-radius: 5px;
+    height: 20px;
+
+    border: 2px solid #ffffff;
+
+    padding: 25px 30px;
+    font-size: 18px;
+    letter-spacing: 2px;
+    color: #ffffff;
+}
+.register:hover{
+    background-color: #ffffff;
+    border-color: #ffffff;
+    color: #84b3ad;
+    cursor: pointer;
+}
+footer{
+    color: #ffffff;
+    margin-top: 15px;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+.titles{
+    background: #ffffff;
+    padding-top: 0;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+h3{
+    color: darkgray;
+    padding-left: 60px;
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+h4{
+    color: darkgray;
+    margin-left: 65px;
+    padding-top: 20px;
+}
+img{
+    border-radius: 10px;
+    width: 300px;
+    margin-left: 60px;
+}
+.titles p{
+    text-align: justify;
+}
+.bottom-nav ul li a{
+    color: #ffffff;
+    font-size: 16px;
+}
+.bottom-nav{
+    text-align: right;
+    margin-bottom: 10px;
+}

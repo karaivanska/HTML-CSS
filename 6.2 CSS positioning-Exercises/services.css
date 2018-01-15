@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans');
+body{
+    background: #F0F0E8;
+    font-family: "Open Sans", sans-serif;
+}
+h1{
+    font-size: 56px;
+    text-transform: capitalize;
+    color: #009288;
+    text-align: center;
+}
+.upper{
+    text-align: center;
+}
+.figure{
+    text-align: center;
+}
+.middle{
+    display: inline-block;
+    margin-left: 150px;
+}
+article{
+    width: 210px;
+    text-align: center;
+    float: left;
+    padding: 30px;
+    cursor: pointer;
+}
+article:hover{
+    background: #F6F6F5;
+    border-left: 20px solid #009288;
+
+}
+h1, h2{
+    font-weight: 900;
+}
