@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa:700|Open+Sans:400,700');
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
+@import url('https://fonts.googleapis.com/css?family=Oxygen');
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: #927057;
+    font-family: Oxygen, sans-serif;
+    color: white;
+    padding: 20px;
+}
+main{
+    background: #D5C395;
+    width: 470px;
+    margin: 50px auto;
+    padding: 50px 60px 30px 60px;
+    position: relative;
+}
+main:before{
+    position: absolute;
+    top: -30px;
+    left: 259px;
+    background: url("images/triangle.png") no-repeat 0 0;
+    display: block;
+    height: 35px;
+    width: 68px;
+    content: "";
+}
+footer {
+    font-size: 1em;
+    color: #efe1c4;
+    text-align: center;
+    margin-top: -36px;
+}
+.profile-image{
+    margin-top: 50px;
+    text-align: center;
+}
+img{
+    border: 5px solid #D5C395;
+    height: 123px;
+}
+input{
+    outline: none;
+    border: none;
+    background: #efe1c4;
+    padding: 10px 10px 10px 60px;
+    width: 85%;
+    font-size: 1.1em;
+    color: #927057;
+    border-radius: 5px;
+    margin-bottom: 30px;
+
+}
+button{
+    outline: none;
+    border: none;
+    background: #927057;
+    padding: 10px;
+    width: 100%;
+    max-width: 500px;
+    font-size: 1.5em;
+    color: #d5c395;
+    border-radius: 5px;
+}
+div.input-img{
+    position: relative;
+}
+div.input-img img{
+    left: 12px;
+    top: 11px;
+    width: 20px;
+    height: 20px;
+    border: none;
+    position: absolute;
+}
+
+
+
+body{
+    background: #927057;
+    font-family: Oxygen, sans-serif;
+    color: white;
+    padding: 20px;
+}
+main{
+    background: #D5C395;
+    width: 470px;
+    margin: 50px auto;
+    padding: 50px 60px 30px 60px;
+    position: relative;
+}
+main:before{
+    position: absolute;
+    top: -30px;
+    left: 259px;
+    background: url("images/triangle.png") no-repeat 0 0;
+    display: block;
+    height: 35px;
+    width: 68px;
+    content: "";
+}
+footer {
+    font-size: 1em;
+    color: #efe1c4;
+    text-align: center;
+    margin-top: -36px;
+}
+.profile-image{
+    margin-top: 50px;
+    text-align: center;
+}
+img{
+    border: 5px solid #D5C395;
+    height: 123px;
+}
+input{
+    outline: none;
+    border: none;
+    background: #efe1c4;
+    padding: 10px 10px 10px 60px;
+    width: 85%;
+    font-size: 1.1em;
+    color: #927057;
+    border-radius: 5px;
+    margin-bottom: 30px;
+
+}
+button{
+    outline: none;
+    border: none;
+    background: #927057;
+    padding: 10px;
+    width: 100%;
+    max-width: 500px;
+    font-size: 1.5em;
+    color: #d5c395;
+    border-radius: 5px;
+}
+div.input{
+    position: relative;
+}
+div.input i{
+    left: 12px;
+    top: 11px;
+    width: 20px;
+    height: 20px;
+    border: none;
+    position: absolute;
+    color: #927057;
+}

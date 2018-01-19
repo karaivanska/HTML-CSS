@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,900');
+@import url("https://fonts.googleapis.com/css?family=Anton");
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family:'Lato', sans-serif;
+    font-size: 14px;
+    height: 1000px;
+    background: #FAFAFA;
+}
+main{
+    width: 60%;
+    height: 48%;
+
+    margin: 0 auto;
+    margin-top: 120px;
+
+}
+.product{
+    display: flex;
+    border-radius: 15px;
+    --box-shadow-color: grey;
+    box-shadow: 4px 7px 23px var(--box-shadow-color);;
+}
+
+form{
+    width:215px;
+    margin: 50px 0 0 30px;
+    display: block;
+}
+
+img{
+    background: linear-gradient(to bottom, #6afdc9 0%,#42c9ca 100%);
+    width: 384px;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-bottom-left-radius: 15px;
+}
+.product-info{
+    display: grid;
+    margin-top: 50px;
+}
+select{
+    background: #42C9CA;
+    width: 139px;
+    color: white;
+    border: none;
+    font-size: 14px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    text-indent: 1px;
+    text-overflow: '';
+    margin-top: 16px;
+    margin-left: 20px;
+    margin-bottom: 11px;
+    height: 24px;
+}
+input{
+    margin-top: 15px;
+    border-bottom: 5px solid #42C9CA;
+    border-top: none;
+    height: 24px;
+    margin-left: 17px;
+    color: #42C9CA;
+    border-left: none;
+    margin-bottom: 15px;
+    font-size: 14px;
+}
+button{
+    background: #42C9CA;
+    margin-top: 20px;
+    color: #ffffffff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 113px;
+    border-radius: 15px;
+    border: none;
+    margin-bottom: 30px;
+}

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="edit-user-form.css">
+    <title>Edit User Form</title>
+</head>
+<body>
+    <header>
+        <h1>edit user</h1>
+    </header>
+    <main>
+        <form action="#">
+            <section class="account">
+                <label for="username">
+                    <span>Username</span><br>
+                    <input type="text">
+                </label><br>
+
+                <label for="email">
+                    <span>Email</span><br>
+                    <input type="text">
+                </label><br>
+
+                <label for="phone">
+                    <span>Phone number</span><br>
+                    <input type="tel">
+                </label><br>
+            </section>
+
+            <section class="radio-btn">
+                <label for="user-type">
+                    <input type="radio" id="choice1"                 name="radio" value="broadband">
+                    <label for="choice1">Broadband</label>
+                    <input type="radio" id="choice2"                 name="radio" value="radio">
+                    <label for="choice2">Radio</label>
+                </label><br>
+            </section>
+            <section class="account">
+                <label for="password">
+                    <span>Change Password</span><br>
+                    <input type="password">
+                </label><br>
+            </section>
+
+            <section class="all-groups">
+                <span>Group</span><br>
+                <div class="grops">
+                    <label for="group">
+                        <input type="checkbox"><span>All Groups</span><br>
+                        <input type="checkbox"><span>Group 1</span><br>
+                        <input type="checkbox"><span>Group 2</span><br>
+                        <input type="checkbox"><span>Group 3</span><br>
+                        <input type="checkbox"><span>Group 4</span><br>
+                    </label><br>
+                </div>
+            </section>
+
+            <span class="contact">Contacts</span><br>
+                <a href="#">See Contacts list</a><br>
+            <button class="cancel">Cancel</button><button class="save">Save</button>
+        </form>
+    </main>
+</body>
+</html>
