@@ -1,0 +1,45 @@
+@media all and (max-width: 960px){
+     #wrapper{
+         width: 100%;
+     }
+}
+
+
+@media all and (max-width: 780px) {
+    nav ul {
+        justify-content: center;
+        flex-grow: 1;
+    }
+}
+
+@media all and (max-width: 640px) {
+    body #wrapper > header h1 a img{
+       margin: 0 auto;
+    }
+
+    body #wrapper > header h1 a span{
+        margin: 0;
+    }
+
+    body #wrapper > header h1 a img{
+        max-width: 100%;
+    }
+
+    body #wrapper > section{
+        max-width: 100%;
+    }
+
+    body #wrapper > aside{
+        max-width: 100%;
+    }
+
+    body #wrapper > aside div{
+        max-width: 50%;
+    }
+}
+
+@media all and (max-width: 480px) {
+    body #wrapper > aside div{
+        max-width: 100%;
+    }
+}
